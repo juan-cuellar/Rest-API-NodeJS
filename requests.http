@@ -1,0 +1,24 @@
+###
+POST http://localhost:9000/api/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "sdvjnsaljgn",
+    "autor": "por no se quien"
+}
+
+###
+GET http://localhost:9000/api/create HTTP/1.1
+
+
+###
+PUT http://localhost:9000/api/create/64df9f903f26cde890864ca7 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "El lobo estepario",
+    "autor": "Hermann Hesse"
+}
+
+###
+DELETE http://localhost:9000/api/create/64dfa6aecaefbeca47fee33b HTTP/1.1
